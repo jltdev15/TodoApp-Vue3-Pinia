@@ -55,7 +55,7 @@ div {
     position: fixed;
     top: 30vh;
     left: 50%;
-    width: 10%;
+    width: 90%;
     z-index: 100;
     border: none;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
