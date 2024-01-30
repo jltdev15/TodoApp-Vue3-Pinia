@@ -8,7 +8,7 @@ const taskStore = useTaskStore()
 <template>
   <div class="w-full lg:w-4/6">
     <div
-      class="flex items-center justify-center py-6 text-gray-200 bg-blue-600 shadow-md sm:py-3 sm:justify-start sm:px-3 sm:gap-6"
+      class="flex items-center justify-center py-6 py-12 text-gray-200 bg-blue-600 shadow-md sm:py-3 sm:justify-start sm:px-3 sm:gap-6"
     >
       <div class="flex items-center">
         <h1
@@ -60,7 +60,7 @@ const taskStore = useTaskStore()
           </nav>
         </aside>
       </div>
-      <div class="w-full px-3 lg:p-6">
+      <div class="w-full px-3 py-12 lg:p-6">
         <router-view></router-view>
       </div>
     </section>
